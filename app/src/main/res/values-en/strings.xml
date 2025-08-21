@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RFID Reader</string>
+    <string name="nfc_not_supported">NFC not supported on this device.</string>
+    <string name="enable_nfc">Please enable NFC.</string>
+    <string name="label_nfc_ready_description">Approach an RFID tag to read it.</string>
+    <string name="label_nfc_icon_description">NFC Icon</string>
+    <string name="label_hex_id">HEX ID:</string>
+    <string name="label_dec_id">DEC ID:</string>
+    <string name="tech_not_supported">Technology not supported by this tag.</string>
+    <string name="tag_detected">Tag detected!</string>
+    <string name="block_read_error">Error reading block.</string>
+    <string name="communication_error">Communication error with the tag.</string>
+    <string name="nfc_disabled_dialog_title">NFC Disabled</string>
+    <string name="nfc_disabled_dialog_message">NFC is disabled. Please enable it in settings to use the app.</string>
+    <string name="nfc_disabled_dialog_open_settings">Open Settings</string>
+    <string name="nfc_disabled_dialog_dismiss">Dismiss</string>
+</resources>

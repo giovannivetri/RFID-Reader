@@ -1,0 +1,65 @@
+<resources>
+    <string name="nfc_not_supported">Il dispositivo non supporta la tecnologia NFC.</string>
+    <string name="app_name">Lettore RFID</string>
+    <string name="enable_nfc">NFC disabilitato. Abilitalo per utilizzare l\'app.</string>
+    <string name="nfc_disabled_message">NFC è disabilitato. Abilitalo nelle impostazioni per continuare.</string>
+    <string name="title_activity_kimono">KimonoActivity</string>
+    <string name="title_activity_compose">ComposeActivity</string>
+    <string name="title_activity_main_compose">MainComposeActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="permission_denied_message">Permesso NFC negato. L\'app non può funzionare senza questo permesso.</string>
+    <string name="request_permission">Richiedi Permesso</string>
+    <string name="nfc_permissions_required">Sono necessari i permessi NFC per utilizzare questa funzionalità.</string>
+    <string name="label_allow_nfc_title">Consenti NFC</string>
+    <string name="label_allow_nfc_description">L\'app necessita dell\'accesso NFC per leggere i tag RFID.</string>
+    <string name="label_nfc_disabled_title">NFC Disabilitato</string>
+    <string name="label_nfc_disabled_description">Abilita l\'NFC nelle impostazioni del tuo dispositivo.</string>
+    <string name="label_nfc_ready_title">NFC Pronto</string>
+    <string name="label_nfc_ready_description">Avvicina un tag RFID per leggerlo.</string>
+    <string name="label_nfc_icon_description">Icona NFC</string> <!-- Ho aggiunto questa -->
+    <string name="label_hex_id">ID ESADECIMALE:</string> <!-- Ho aggiunto questa -->
+    <string name="label_dec_id">ID DECIMALE:</string> <!-- Ho aggiunto questa -->
+    <string name="label_nfc_tag_detected_title">Tag NFC Rilevato</string>
+    <string name="label_nfc_tag_tecnologies_title">Tecnologie Supportate:</string>
+    <string name="label_nfc_tag_id_title">ID Tag:</string>
+    <string name="label_nfc_default_value">N/A</string>
+    <string name="label_write_tag_button">Scrivi sul Tag</string>
+    <string name="label_write_tag_input_hint">Inserisci i dati da scrivere</string>
+    <string name="label_write_tag_success">Dati scritti con successo!</string>
+    <string name="label_write_tag_error">Errore durante la scrittura dei dati.</string>
+    <string name="label_read_tag_button">Leggi Tag</string>
+    <string name="label_formet_tag_button">Formatta Tag</string>
+    <string name="label_nfc_data_title">Dati NFC</string>
+    <string name="label_nfc_formatted_message">Tag NFC formattato con successo.</string>
+    <string name="label_nfc_format_error_message">Errore durante la formattazione del tag NFC.</string>
+    <string name="label_ndef_push_message">Messaggio NDEF inviato.</string>
+    <string name="label_ndef_push_error">Errore durante l\'invio del messaggio NDEF.</string>
+
+    <!-- Stringhe aggiunte per risolvere gli errori -->
+    <string name="tech_not_supported">Tecnologia non supportata da questo tag.</string>
+    <string name="tag_detected">Tag rilevato!</string>
+    <string name="block_read_error">Errore durante la lettura del blocco.</string>
+    <string name="communication_error">Errore di comunicazione con il tag.</string>
+    <string name="main_title">Bag ID</string>
+    <string name="nfc_disabled_dialog_title">NFC Disabilitato</string>
+    <string name="nfc_disabled_dialog_message">NFC è disabilitato. Per favore, abilitalo nelle
+        impostazioni per utilizzare l\'app.
+    </string>
+    <string name="nfc_disabled_dialog_open_settings">Apri Impostazioni</string>
+    <string name="nfc_disabled_dialog_dismiss">Annulla</string>
+
+
+    <!-- <string name="nfc_disabled_dialog_title">NFC Disabled</string> -->
+
+    <!-- <string name="nfc_disabled_dialog_message">NFC is disabled. Please enable it in settings to use
+        the app.
+    </string> -->
+
+    <!-- <string name="nfc_disabled_dialog_open_settings">Open Settings</string> -->
+
+    <!-- <string name="nfc_disabled_dialog_dismiss">Dismiss</string> -->
+</resources>

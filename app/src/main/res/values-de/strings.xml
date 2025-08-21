@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RFID Lesegerät</string>
+    <string name="nfc_not_supported">NFC wird auf diesem Gerät nicht unterstützt.</string>
+    <string name="enable_nfc">Bitte aktivieren Sie NFC.</string>
+    <string name="label_nfc_ready_description">Nähern Sie sich einem RFID-Tag, um es zu lesen.</string>
+    <string name="label_nfc_icon_description">NFC-Symbol</string>
+    <string name="label_hex_id">HEX ID:</string>
+    <string name="label_dec_id">DEZ ID:</string>
+    <string name="tech_not_supported">Technologie wird von diesem Tag nicht unterstützt.</string>
+    <string name="tag_detected">Tag erkannt!</string>
+    <string name="block_read_error">Fehler beim Lesen des Blocks.</string>
+    <string name="communication_error">Kommunikationsfehler mit dem Tag.</string>
+    <string name="nfc_disabled_dialog_title">NFC Deaktiviert</string>
+    <string name="nfc_disabled_dialog_message">NFC ist deaktiviert. Bitte aktivieren Sie es in den Einstellungen, um die App zu verwenden.</string>
+    <string name="nfc_disabled_dialog_open_settings">Einstellungen öffnen</string>
+    <string name="nfc_disabled_dialog_dismiss">Verwerfen</string>
+</resources>

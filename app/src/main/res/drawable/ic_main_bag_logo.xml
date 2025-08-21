@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="120dp"
+    android:viewportWidth="100"
+    android:viewportHeight="120">
+
+    <!-- Meccanismo di aggancio centrale -->
+    <path
+        android:fillColor="#374151"
+        android:pathData="M46,0 h8 a2,2 0 0 1 2,2 v11 a2,2 0 0 1 -2,2 h-8 a2,2 0 0 1 -2,-2 v-11 a2,2 0 0 1 2,-2 Z" />
+
+    <!-- Barra orizzontale di sospensione (più sottile) -->
+    <path
+        android:fillColor="#4B5563"
+        android:pathData="M15,15 h70 a3,3 0 0 1 3,3 v0 a3,3 0 0 1 -3,3 h-70 a3,3 0 0 1 -3,-3 v0 a3,3 0 0 1 3,-3 Z" />
+
+    <!-- Corpo principale della bag (largo) -->
+    <path
+        android:fillColor="#F9FAFB"
+        android:strokeColor="#D1D5DB"
+        android:strokeWidth="0.5"
+        android:pathData="M20,21 h60 v59 h-60 Z" />
+
+    <!-- Ombreggiatura per dare tridimensionalità -->
+    <path
+        android:fillColor="#E5E7EB"
+        android:pathData="M20,21 h8 v59 h-8 Z" />
+
+    <!-- Meccanismi laterali che "pinzano" la bag (più sottili) -->
+    <path
+        android:fillColor="#4B5563"
+        android:pathData="M15,21 L20,21 V35 L15,35 Z" />
+    <path
+        android:fillColor="#4B5563"
+        android:pathData="M85,21 L80,21 V35 L85,35 Z" />
+
+    <!-- Parte inferiore rettangolare e rigida (larga) - con angoli inferiori smussati -->
+    <path
+        android:fillColor="#374151"
+        android:pathData="M20,80 H80 V110 Q80,115 75,115 H25 Q20,115 20,110 Z" />
+
+    <!-- Highlight sulla parte inferiore per un leggero effetto 3D -->
+    <path
+        android:fillColor="#4B5563"
+        android:pathData="M20,80 h60 v5 h-60 Z" />
+</vector>

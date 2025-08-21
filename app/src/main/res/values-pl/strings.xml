@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Czytnik RFID</string>
+    <string name="nfc_not_supported">NFC nie jest obsługiwane na tym urządzeniu.</string>
+    <string name="enable_nfc">Proszę włączyć NFC.</string>
+    <string name="label_nfc_ready_description">Zbliż tag RFID, aby go odczytać.</string>
+    <string name="label_nfc_icon_description">Ikona NFC</string>
+    <string name="label_hex_id">ID HEX:</string>
+    <string name="label_dec_id">ID DEC:</string>
+    <string name="tech_not_supported">Technologia nieobsługiwana przez ten tag.</string>
+    <string name="tag_detected">Wykryto tag!</string>
+    <string name="block_read_error">Błąd odczytu bloku.</string>
+    <string name="communication_error">Błąd komunikacji z tagiem.</string>
+    <string name="nfc_disabled_dialog_title">NFC Wyłączone</string>
+    <string name="nfc_disabled_dialog_message">NFC jest wyłączone. Włącz je w ustawieniach, aby korzystać z aplikacji.</string>
+    <string name="nfc_disabled_dialog_open_settings">Otwórz Ustawienia</string>
+    <string name="nfc_disabled_dialog_dismiss">Anuluj</string>
+</resources>

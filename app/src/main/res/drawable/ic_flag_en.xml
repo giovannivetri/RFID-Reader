@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="20dp"
+    android:viewportWidth="60"
+    android:viewportHeight="30">
+
+    <!-- Sfondo Blu -->
+    <path
+        android:fillColor="#012169"
+        android:pathData="M0,0 h60 v30 h-60 Z" />
+
+    <!-- Croce di Sant'Andrea (Scozia) - Saltire bianco -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:pathData="M0,0 L60,30" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:pathData="M0,30 L60,0" />
+
+    <!-- Croce di San Patrizio (Irlanda) - Saltire rosso "controcaricato" -->
+    <path
+        android:fillColor="#C8102E"
+        android:pathData="M0,5 L25.5,15 L25.5,12 L0,2 Z" />
+    <path
+        android:fillColor="#C8102E"
+        android:pathData="M34.5,15 L60,25 L60,28 L34.5,18 Z" />
+    <path
+        android:fillColor="#C8102E"
+        android:pathData="M25.5,18 L0,28 L0,25 L25.5,15 Z" />
+    <path
+        android:fillColor="#C8102E"
+        android:pathData="M60,2 L34.5,12 L34.5,15 L60,5 Z" />
+
+    <!-- Croce di San Giorgio (Inghilterra) - Croce rossa con bordo bianco -->
+    <!-- Bordo Bianco -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="10"
+        android:pathData="M0,15 L60,15" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="10"
+        android:pathData="M30,0 L30,30" />
+    <!-- Croce Rossa -->
+    <path
+        android:strokeColor="#C8102E"
+        android:strokeWidth="6"
+        android:pathData="M0,15 L60,15" />
+    <path
+        android:strokeColor="#C8102E"
+        android:strokeWidth="6"
+        android:pathData="M30,0 L30,30" />
+</vector>
