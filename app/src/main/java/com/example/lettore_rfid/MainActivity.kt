@@ -49,6 +49,12 @@ import androidx.compose.ui.unit.sp
 import java.io.IOException
 import java.math.BigInteger
 import java.util.Locale
+// Importazioni aggiunte
+import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsControllerCompat
+import androidx.compose.runtime.SideEffect
+import androidx.compose.ui.platform.LocalView
 
 const val PREFS_NAME = "LettoreRFIDPrefs"
 const val PREF_LANGUAGE = "language"
@@ -77,6 +83,8 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // Nascondi la barra di navigazione e abilita il comportamento di swipe per mostrarla temporaneamente
+        WindowCompat.setDecorFitsSystemWindows(window, false)
 
         nfcAdapter = NfcAdapter.getDefaultAdapter(this)
 
@@ -89,6 +97,15 @@ class MainActivity : ComponentActivity() {
         textInfoState = getString(R.string.label_nfc_ready_description)
 
         setContent {
+            val view = LocalView.current
+            if (!view.isInEditMode) {
+                SideEffect {
+                    val window = this@MainActivity.window
+                    val controller = WindowInsetsControllerCompat(window, view)
+                    controller.hide(WindowInsetsCompat.Type.navigationBars())
+                    controller.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+                }
+            }
             YourAppTheme {
                 MainScreen(
                     infoText = textInfoState,
